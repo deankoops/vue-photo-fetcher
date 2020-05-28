@@ -2,11 +2,11 @@
   div#app.container
     h1.mt-5 Photo Fetcher 
 
-    div.row.align-items-center.mt-4
-      div.col-sm-12.col-md-6
+    div.row.no-gutters.align-items-center.mt-4
+      div.col-6
         c-switch(v-model="config.grayscale" label="Make photos grayscale")
 
-      div.col-sm-12.col-md-6.text-right 
+      div.col-6.text-right 
         c-button(:loading="loading" @click="rand_seed++") Fetch New Photos 
 
     div.row.mb-4
