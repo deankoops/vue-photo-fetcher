@@ -8,12 +8,18 @@ import App from '@/App'
 import axios from 'axios'
 import config from '@/config'
 
+import CButton from '@/components/c-button'
+import CSwitch from '@/components/c-switch'
+
 import '@/assets/scss/main.scss'
 
 Vue.prototype.$axios = axios.create({
   baseURL: config.API_BASE,
   withCredentials: false
 })
+
+Vue.component('c-button', CButton)
+Vue.component('c-switch', CSwitch)
 
 Vue.config.productionTip = false
 

@@ -4,6 +4,7 @@
 @import 'bootstrap/bootstrap';
 
 @import "fonts";
+@import "common";
 
 * {
   font-family: SourceSansPro;
@@ -19,6 +20,10 @@ body {
 a {
   color: #000;
   cursor: pointer;
+}
+
+p {
+  margin: 0;
 }
 
 #app {
