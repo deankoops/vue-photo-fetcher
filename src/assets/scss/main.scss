@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@import 'bootstrap/bootstrap-variables';
+@import 'bootstrap/bootstrap';
+
+@import "fonts";
+
+* {
+  font-family: SourceSansPro;
+}
+
+html,
+body {
+  color: $black;
+  font-size: 16px;
+  margin: 0;
+}
+
+a {
+  color: #000;
+  cursor: pointer;
+}
+
+#app {
+  margin: auto;
+  width: 100%;
+}
